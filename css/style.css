@@ -38,6 +38,9 @@ header a{
   color: rgb(151, 19, 19);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.subnav:hover .subnav-content{
+  display: block;
+}
   
   /* if you needed aside menu */
   /* grid-template-columns: 10vw 1fr;
