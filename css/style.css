@@ -29,3 +29,14 @@ span{
     transform: translate(25px);
     
 }
+span::before{
+    position: absolute;
+    bottom: 25px;
+}
+span::after{
+    position: absolute;
+    top: 25px;
+}
+#menu-toggle{
+    
+}
