@@ -57,6 +57,12 @@ header::before{
   z-index: -1;
   border-radius: 50%;
 }
+@media only screen and (max-width:450px){
+body{
+  font-size: 1.2rem;
+  
+}
+}
   
   /* if you needed aside menu */
   /* grid-template-columns: 10vw 1fr;
