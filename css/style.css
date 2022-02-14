@@ -26,7 +26,7 @@ header a{
   font-size: 1rem;
   color: white;
   padding: 0.5rem;
-  background-color: aqua;
+  background-color: rgb(5, 58, 58);
 }
 .subnav-content{
   display: none;
@@ -40,6 +40,10 @@ header a{
 }
 .subnav:hover .subnav-content{
   display: block;
+  transition: all ease-in ;
+}
+.list-item:hover{
+  background-color: rgb(96, 9, 211);
 }
   
   /* if you needed aside menu */
